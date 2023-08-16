@@ -1,0 +1,10 @@
+table{
+    border: 1px black solid;
+}
+
+td{
+    border: 1px red dashed;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

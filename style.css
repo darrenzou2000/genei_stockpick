@@ -1,0 +1,84 @@
+body{
+    background-image: url("/assets/crypto.jpg");
+    background-size: cover;
+}
+#title{
+    color:white;
+    background-color: black;
+}
+#main-container{
+    text-align: center;
+    font-family: "Aladin";
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Aladin";
+    src: url(Aladin-Regular.ttf);
+}
+#genie_text{
+    font-size: 30px;
+    width: 250px;
+    overflow: hidden;
+}
+.animate{
+    animation:typing 1s steps(22,end) forwards,
+            blink 1s infinite;
+}
+#genie-holder{
+    display: inline-block;
+    position: relative;
+}
+@keyframes typing {
+    0% { width:0%; }
+    100% { width:100%; }
+  }
+
+#text-holder{
+    position:absolute;
+    right: 90px;
+    top: 90px;
+    width:250px;
+}
+#genie_button{
+    display: none;
+}
+#ticker_input{
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+}
+
+#flamingButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+#flamingButton:hover {
+    opacity: 1;
+    border: 3px solid transparent;
+    border-image-slice: 1;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #ff5733, #f44336, #ff5733) 1;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
